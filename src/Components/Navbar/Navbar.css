@@ -1,0 +1,22 @@
+.tl{
+    color: red;
+}
+.link{
+    transition: 0.4s;
+    text-align: center;
+    padding: 4px 4px 4px 4px;
+}
+.link:hover{
+    transform: scale(1.1)
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #689B8A;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
