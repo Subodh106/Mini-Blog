@@ -8,9 +8,10 @@ import PostDetails from './Pages/PostDetails/PostDetails.jsx'
 const router = createBrowserRouter(
 createRoutesFromElements(
     <Route path='/' element={<App/>}>
-    <Route index path='/home' element={<Home/>}></Route>
+    <Route path='' element={<Home/>}></Route>
+    <Route path="/home" element={<Home/>}></Route>
     <Route path='/about' element={<About/>}></Route>
-    <Route path='/postdetails' element={<PostDetails/>}></Route>
+    <Route path='/postdetails/:id' element={<PostDetails/>}></Route>
     </Route>
 )
 )

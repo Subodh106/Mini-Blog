@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Data } from '../../Data/Data'
 
 const Home = () => {
@@ -29,7 +30,7 @@ return (
                             <img src={data.image} alt="image" />
                             <h3 className='text-center font-semibold'>{data.title}</h3>
                             <p className='text-center font-lg'>{data.content}</p>
-                            <button className='Read-More'>Read More →</button>
+                            <Link to={`/postdetails/${data.id}`}><button className='Read-More'>Read More →</button></Link>
                         </div>
                     )})}
                 </div>
