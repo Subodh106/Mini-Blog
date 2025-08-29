@@ -9,6 +9,7 @@ return (
         <nav className='flex justify-center align-center gap-10 list-none text-xl cursor-pointer'>
             <NavLink to="/home" className={`home link text-lg`}>Home</NavLink>
             <NavLink to="/about" className={`About link text-lg`}>About</NavLink>
+            <NavLink to="/login" className={`Login link text-lg`}>Log In</NavLink>
         </nav>
     </div>
     </>

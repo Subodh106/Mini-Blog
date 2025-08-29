@@ -6,6 +6,7 @@ import "./Pages/Home/Home.css"
 import "./Pages/About/About.css"
 import "./Pages/PostDetails/PostDetails.css"
 import "./Components/Footer/Footer.css"
+import "./Pages/Login/Login.css"
 import {RouterProvider } from 'react-router-dom'
 import router from './Router.jsx';
 

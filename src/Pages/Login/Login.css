@@ -1,0 +1,44 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid black;
+    height: 400px;
+    padding:80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.form:hover{
+    transform: scale(1.1);
+}
+input{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 12px;
+    outline: none;
+    height: 35px;
+    padding: 12px 30px 12px 30px;
+}
+label{
+    text-align: center;
+}

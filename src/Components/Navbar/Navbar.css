@@ -20,3 +20,12 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.Login{
+    border: none;
+    transition: 0.5s;
+}
+.Login:hover{
+    background-color: #689B8B;
+    border-radius: 12px;
+    border:1px solid black
+}

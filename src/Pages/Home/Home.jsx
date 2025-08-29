@@ -21,8 +21,8 @@ return (
         </div>
         <div className='Content'>
             {
-                (!delay)?<div class="spinner-container " id="spinner">
-                <div class="spinner"></div>
+                (!delay)?<div className="spinner-container " id="spinner">
+                <div className="spinner"></div>
                 </div>:<div className='posts'>
                     {Data.map((data)=>{
                         return(
